@@ -34,7 +34,9 @@
     "show_quick_buy": true,
     "cart_show_free_shipping_bar": true,
     "cart_free_shipping_threshold": "10000",
-    "content_for_index": []
+    "content_for_index": [
+
+    ]
   },
   "presets": {
     "Allure": {
