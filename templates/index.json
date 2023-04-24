@@ -6,15 +6,15 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/6.jpg",
-            "mobile_image": "shopify://shop_images/6.jpg",
+            "image": "shopify:\/\/shop_images\/6.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/6.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 780,
             "button_1_text": "Shop Now",
-            "button_1_link": "shopify://collections/men",
+            "button_1_link": "shopify:\/\/collections\/men",
             "button_1_style": "solid",
             "button_1_background": "#e7a917",
             "button_1_text_color": "#ffffff",
@@ -33,15 +33,15 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/1_banner.jpg",
-            "mobile_image": "shopify://shop_images/1_banner.jpg",
+            "image": "shopify:\/\/shop_images\/1_banner.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/1_banner.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 700,
             "button_1_text": "Shop Now",
-            "button_1_link": "shopify://collections/occasion",
+            "button_1_link": "shopify:\/\/collections\/occasion",
             "button_1_style": "solid",
             "button_1_background": "#e7a917",
             "button_1_text_color": "#ffffff",
@@ -58,7 +58,10 @@
           }
         }
       },
-      "block_order": ["slide-1", "slide-2"],
+      "block_order": [
+        "slide-1",
+        "slide-2"
+      ],
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
@@ -77,7 +80,7 @@
           "type": "collection",
           "settings": {
             "collection": "women",
-            "image": "shopify://shop_images/banner2.jpg",
+            "image": "shopify:\/\/shop_images\/banner2.jpg",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -95,7 +98,7 @@
           "type": "collection",
           "settings": {
             "collection": "men",
-            "image": "shopify://shop_images/111111_9943c664-99f3-4edb-9435-e6f00841e110.png",
+            "image": "shopify:\/\/shop_images\/111111_9943c664-99f3-4edb-9435-e6f00841e110.png",
             "expand_collection": false,
             "content_position": "place-self-end-start text-start",
             "subheading": "",
@@ -170,7 +173,10 @@
           }
         }
       },
-      "block_order": ["collection-1", "58a8e1c6-9667-4319-953c-a0c86797d4d7"],
+      "block_order": [
+        "collection-1",
+        "58a8e1c6-9667-4319-953c-a0c86797d4d7"
+      ],
       "settings": {
         "separate_section_with_border": true,
         "hide_product_information": false,
@@ -215,16 +221,21 @@
       "blocks": {
         "template--16073278390446__64a06d1c-e9e6-4aaa-99b4-fb085ed2dc41-1682321394035ebfd9-0": {
           "type": "subheading",
-          "settings": { "text": "Subheading" }
+          "settings": {
+            "text": "Subheading"
+          }
         },
         "template--16073278390446__64a06d1c-e9e6-4aaa-99b4-fb085ed2dc41-1682321394035ebfd9-1": {
           "type": "heading",
-          "settings": { "text": "VISIT OUR STORE TODAY", "heading_tag": "h3" }
+          "settings": {
+            "text": "VISIT OUR STORE TODAY",
+            "heading_tag": "h3"
+          }
         },
         "template--16073278390446__64a06d1c-e9e6-4aaa-99b4-fb085ed2dc41-1682321394035ebfd9-2": {
           "type": "richtext",
           "settings": {
-            "content": "<p>23A Shakespeare Sarani Kolkata-700017 India</p><p></p><p>Mon - Fri, 10am - 8pm</p><p>Saturday, 11am - 8pm<br/>Sunday, 11am - 8pm</p>"
+            "content": "<p>23A Shakespeare Sarani Kolkata-700017 India<\/p><p><\/p><p>Mon - Fri, 10am - 8pm<\/p><p>Saturday, 11am - 8pm<br\/>Sunday, 11am - 8pm<\/p>"
           }
         },
         "530c98bb-e412-4f6c-978b-8373afc41256": {
@@ -246,7 +257,7 @@
       ],
       "settings": {
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/Sasya_Store_7.jpg",
+        "image": "shopify:\/\/shop_images\/Sasya_Store_7.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "md",
@@ -277,7 +288,7 @@
         "image_size": "auto",
         "subheading": "Keep me updated",
         "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.</p>",
+        "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
         "button_text": "Subscribe",
         "text_color": "#1c1c1c",
         "button_background": "",
