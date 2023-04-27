@@ -13,7 +13,7 @@
     }
   </style>
 
-  <div class="section-spacing bordered-section">
+  <div class="section-spacing {% if section.settings.separate_section_with_border %}bordered-section{% endif %}">
     <div class="container">
       {%- assign wrapper_carousel_id = 'featured-collections-carousel-' | append: section.id -%}
 
