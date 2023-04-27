@@ -12,7 +12,9 @@
           }
         }
       },
-      "block_order": ["message-1"],
+      "block_order": [
+        "message-1"
+      ],
       "settings": {
         "enable_sticky": false,
         "autoplay": true,
@@ -31,11 +33,11 @@
           "settings": {
             "menu_item": "Women",
             "images_position": "right",
-            "image_1": "shopify://shop_images/PHOTO-2021-02-08-10-50-02.jpg",
+            "image_1": "shopify:\/\/shop_images\/PHOTO-2021-02-08-10-50-02.jpg",
             "image_1_heading": "Lehengas",
             "image_1_text": "",
-            "image_1_link": "shopify://collections/lehengas",
-            "image_2": "shopify://shop_images/KSS_1069.jpg",
+            "image_1_link": "shopify:\/\/collections\/lehengas",
+            "image_2": "shopify:\/\/shop_images\/KSS_1069.jpg",
             "image_2_heading": "Fancy sarees",
             "image_2_text": "",
             "image_2_link": ""
@@ -46,11 +48,11 @@
           "settings": {
             "menu_item": "Designers",
             "images_position": "right",
-            "image_1": "shopify://shop_images/KSS_1356.jpg",
+            "image_1": "shopify:\/\/shop_images\/KSS_1356.jpg",
             "image_1_heading": "designer mens",
             "image_1_text": "Printed jacket with drape kurta",
             "image_1_link": "",
-            "image_2": "shopify://shop_images/KSS_0035.jpg",
+            "image_2": "shopify:\/\/shop_images\/KSS_0035.jpg",
             "image_2_heading": "designer gowns",
             "image_2_text": "evening gowns with couture perfection",
             "image_2_link": ""
@@ -61,11 +63,11 @@
           "settings": {
             "menu_item": "Men",
             "images_position": "right",
-            "image_1": "shopify://shop_images/KSS_7287.jpg",
+            "image_1": "shopify:\/\/shop_images\/KSS_7287.jpg",
             "image_1_heading": "Jacket with kurta",
             "image_1_text": "printed jacket with kurta",
             "image_1_link": "",
-            "image_2": "shopify://shop_images/KSS_0187.jpg",
+            "image_2": "shopify:\/\/shop_images\/KSS_0187.jpg",
             "image_2_heading": "bundi jacket with short kurta",
             "image_2_text": "printed nehru jacket with sort kurta set",
             "image_2_link": ""
@@ -76,10 +78,10 @@
           "settings": {
             "menu_item": "Occasion",
             "images_position": "right",
-            "image_1": "shopify://shop_images/KSS_6449.jpg",
+            "image_1": "shopify:\/\/shop_images\/KSS_6449.jpg",
             "image_1_heading": "wedding looks",
             "image_1_text": "sherwanis",
-            "image_1_link": "shopify://collections/sherwanis",
+            "image_1_link": "shopify:\/\/collections\/sherwanis",
             "image_2_heading": "",
             "image_2_text": "",
             "image_2_link": ""
@@ -94,9 +96,9 @@
       ],
       "settings": {
         "enable_sticky": true,
-        "show_separation_border": false,
+        "show_separation_border": true,
         "reduce_padding": true,
-        "logo": "shopify://shop_images/logo-sasya.png",
+        "logo": "shopify:\/\/shop_images\/logo-sasya.png",
         "logo_max_width": 60,
         "logo_mobile_max_width": 60,
         "menu": "main-menu",
@@ -112,9 +114,12 @@
         "show_country_flag": true,
         "show_locale_selector": false,
         "transparent_header_text_color": "#ffffff",
-        "transparent_logo": "shopify://shop_images/logo-sasya.png"
+        "transparent_logo": "shopify:\/\/shop_images\/logo-sasya.png"
       }
     }
   },
-  "order": ["announcement-bar", "header"]
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
 }
