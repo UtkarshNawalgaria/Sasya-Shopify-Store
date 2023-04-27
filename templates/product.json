@@ -3,17 +3,17 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": { "type": "vendor", "settings": {} },
-        "title": { "type": "title", "settings": { "heading_tag": "h3" } },
+        "title": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
         "price": {
           "type": "price",
-          "settings": { "show_taxes_notice": false }
-        },
-        "payment_terms": { "type": "payment_terms", "settings": {} },
-        "separator": { "type": "separator", "settings": {} },
-        "description": {
-          "type": "description",
-          "settings": { "collapse_content": false, "show_below_gallery": false }
+          "settings": {
+            "show_taxes_notice": false
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -24,7 +24,11 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector": { "type": "quantity_selector", "settings": {} },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -36,32 +40,54 @@
             "payment_button_text_color": ""
           }
         },
-        "complementary_products": {
-          "type": "complementary_products",
+        "separator": {
+          "type": "separator",
           "settings": {
-            "title": "Pairs well with",
-            "products_count": 2,
-            "show_below_gallery": true,
-            "stack_products": false,
-            "show_quick_buy": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
+        },
+        "bb36874b-4f33-4b89-ba0f-570f88724a1d": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "4e49ea96-5210-45c9-a80b-be48b308a837": {
+          "type": "offers",
+          "settings": {
+            "stack_offers": false,
+            "offer_section_heading": "Offers",
+            "offer_1_title": "<strong>FIRST 10<\/strong>",
+            "offer_1_content": "<p>Get 10% off your first order<\/p>",
+            "offer_2_title": "",
+            "offer_2_content": "",
+            "offer_3_title": "",
+            "offer_3_content": "",
+            "background": "",
+            "text_color": "",
+            "border_color": ""
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "price",
-        "payment_terms",
-        "separator",
-        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "complementary_products"
+        "separator",
+        "description",
+        "bb36874b-4f33-4b89-ba0f-570f88724a1d",
+        "4e49ea96-5210-45c9-a80b-be48b308a837"
       ],
       "settings": {
         "container_size": "lg",
-        "product_info_size": 35,
+        "product_info_size": 40,
         "show_sticky_add_to_cart": true,
         "center_basic_info": false,
         "desktop_media_layout": "grid",
@@ -81,14 +107,39 @@
         "stack_products": false,
         "recommendations_count": 10,
         "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
+        "products_per_row_desktop": 5,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": "",
         "title": "Related products",
         "content": ""
       }
+    },
+    "168250798788ee939f": {
+      "type": "apps",
+      "blocks": {
+        "f42cf90c-91bd-4542-b974-03c48326e651": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "f42cf90c-91bd-4542-b974-03c48326e651"
+      ],
+      "settings": {
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
-  "order": ["main", "related-products"]
+  "order": [
+    "main",
+    "related-products",
+    "168250798788ee939f"
+  ]
 }

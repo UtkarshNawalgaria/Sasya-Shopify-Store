@@ -35,8 +35,23 @@
   }
 </style>
 
-<div class="section-spacing section-spacing--tight">
+<div class="section-spacing section-spacing--tight" data-section-type="main-product">
   <div class="container {% unless section.settings.container_size == 'full' %}container--{{ section.settings.container_size }}{% endunless %}">
+
+    {%- if section.settings.show_breadcrumb -%}
+      <nav class="breadcrumb" aria-label="{{ 'general.breadcrumb.label' | t | escape }}">
+        <ol class="breadcrumb__list unstyled-list">
+          <li class="breadcrumb__list-item">
+            <a href="{{ routes.root_url }}" class="smallcaps {% unless show_image %}link-faded{% endunless %}">{{ 'general.breadcrumb.home' | t }}</a>
+          </li>
+
+          <li class="breadcrumb__list-item">
+            <a href="{{ product.url }}" aria-current="page" class="smallcaps {% unless show_image %}link-faded{% endunless %}">{{ product.title }}</a>
+          </li>
+        </ol>
+      </nav>
+    {%- endif -%}
+
     <div class="product">
       {%- if product.media.size > 0 -%}
         {%- render 'product-gallery',
@@ -190,6 +205,12 @@ quick buy information in a template, that will be extracted in JS, which ensures
       "type": "checkbox",
       "id": "show_sticky_add_to_cart",
       "label": "t:sections.main_product.show_sticky_add_to_cart",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_breadcrumb",
+      "label": "Show Breadcrumbs",
       "default": true
     },
     {
@@ -801,6 +822,12 @@ quick buy information in a template, that will be extracted in JS, which ensures
           "id": "stack_offers",
           "label": "t:sections.main_product.blocks.offers.stack_offers",
           "default": false
+        },
+        {
+          "type": "inline_richtext",
+          "id": "offer_section_heading",
+          "label": "Heading",
+          "default": "Offers"
         },
         {
           "type": "header",
