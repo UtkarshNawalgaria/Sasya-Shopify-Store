@@ -125,12 +125,12 @@ or change the format of some info
     },
     "commentCount": {{ article.comments_count }},
     "comment": [
-      {%- for comment in article.comments limit: 5 -%}
+      {%- for _comment in article.comments limit: 5 -%}
         {
           "@type": "Comment",
-          "author": {{ comment.author | json }},
-          "datePublished": "{{ comment.created_at | date: '%Y-%m-%dT%T' }}",
-          "text": {{ comment.content | json }}
+          "author": {{ _comment.author | json }},
+          "datePublished": "{{ _comment.created_at | date: '%Y-%m-%dT%T' }}",
+          "text": {{ _comment.content | json }}
         }{%- unless forloop.last -%},{%- endunless -%}
       {%- endfor -%}
     ]
