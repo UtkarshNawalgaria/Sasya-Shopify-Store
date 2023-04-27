@@ -2141,13 +2141,19 @@ model-media model-viewer, model-media .shopify-model-viewer-ui {
 }
 
 .product-card__quick-add-button {
-  background: rgb(var(--background-secondary));
-  color: rgb(var(--text-color));
+  background: rgb(0, 0, 0, 0.6);
+  color: white;
   z-index: 1;
   padding: .625rem;
   position: absolute;
-  inset-block-end: .5rem;
-  inset-inline-end: .5rem;
+  inset-block-end: 0;
+  inset-inline-end: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  text-transform: uppercase;
 }
 
 @media screen and (pointer: fine) {
@@ -3500,6 +3506,10 @@ tfoot td {
 @media screen and (min-width: 1000px) {
   .breadcrumb {
     display: block;
+  }
+
+  [data-section-type="main-product"] .breadcrumb {
+    margin-bottom: 20px;
   }
 }
 
@@ -5987,6 +5997,11 @@ tfoot td {
   padding-block-start: 1rem;
 }
 
+.product-offers__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
 .product-offers .page-dots {
   padding-block-end: 1.5rem;
 }
@@ -6692,6 +6707,10 @@ tfoot td {
 
 .border-b {
   border-block-end-width: 1px;
+}
+
+.border-rounded {
+  border-radius: var(--input-border-radius);
 }
 
 .divide-x > :not([hidden]) ~ :not([hidden]) {

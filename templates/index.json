@@ -178,7 +178,7 @@
         "58a8e1c6-9667-4319-953c-a0c86797d4d7"
       ],
       "settings": {
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
@@ -214,6 +214,121 @@
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 0.8,
         "subheading": ""
+      }
+    },
+    "5bac1769-b377-439d-96e6-5082e826448f": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-1": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-2": {
+          "type": "badges",
+          "settings": {
+          }
+        },
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-3": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-4": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true
+          }
+        },
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-6": {
+          "type": "separator",
+          "settings": {
+          }
+        },
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-7": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-8": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_type": "block",
+            "color_selector_type": "color",
+            "size_chart_page": ""
+          }
+        },
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-9": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-10": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": false,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-11": {
+          "type": "pickup_availability",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-1",
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-2",
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-3",
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-4",
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-6",
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-7",
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-8",
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-9",
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-10",
+        "template--16077948747950__5bac1769-b377-439d-96e6-5082e826448f-168233044550004741-11"
+      ],
+      "settings": {
+        "product": "frill-saree-for-party-wear-in-georgette-1",
+        "separate_section_with_border": false,
+        "container_size": "lg",
+        "product_info_size": 45,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "desktop_media_grid_gap": 21,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "Our Best Selling Product",
+        "content": ""
+      }
+    },
+    "blog-posts": {
+      "type": "blog-posts",
+      "settings": {
+        "separate_section_with_border": false,
+        "blog": "news",
+        "posts_count": 3,
+        "stack_on_mobile": true,
+        "show_category": true,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "subheading": "",
+        "title": "Blog posts",
+        "content": "",
+        "button_link": "",
+        "button_text": "View all"
       }
     },
     "64a06d1c-e9e6-4aaa-99b4-fb085ed2dc41": {
@@ -264,23 +379,6 @@
         "remove_vertical_spacing": true
       }
     },
-    "blog-posts": {
-      "type": "blog-posts",
-      "settings": {
-        "separate_section_with_border": false,
-        "blog": "news",
-        "posts_count": 3,
-        "stack_on_mobile": true,
-        "show_category": true,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "subheading": "",
-        "title": "Blog posts",
-        "content": "",
-        "button_link": "",
-        "button_text": "View all"
-      }
-    },
     "newsletter": {
       "type": "newsletter",
       "settings": {
@@ -303,8 +401,9 @@
     "collection-list",
     "featured-collections",
     "f369b537-a87a-45ac-8c8c-dcbb2cc04c8e",
-    "64a06d1c-e9e6-4aaa-99b4-fb085ed2dc41",
+    "5bac1769-b377-439d-96e6-5082e826448f",
     "blog-posts",
+    "64a06d1c-e9e6-4aaa-99b4-fb085ed2dc41",
     "newsletter"
   ]
 }
