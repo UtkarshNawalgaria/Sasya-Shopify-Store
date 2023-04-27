@@ -65,7 +65,7 @@
       "settings": {
         "allow_transparent_header": true,
         "show_next_section_button": true,
-        "media_size": "auto",
+        "media_size": "lg",
         "autoplay": true,
         "autoplay_pause_on_video": true,
         "cycle_speed": 5,
@@ -82,7 +82,7 @@
             "collection": "women",
             "image": "shopify:\/\/shop_images\/banner2.jpg",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "WOMEN'S",
             "button_text": "SHOP NOW",
@@ -100,7 +100,7 @@
             "collection": "men",
             "image": "shopify:\/\/shop_images\/111111_9943c664-99f3-4edb-9435-e6f00841e110.png",
             "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "MEN'S",
             "button_text": "SHOP NOW",
@@ -115,9 +115,10 @@
         "63cb97c6-ea38-49fb-b39b-aa17fa8572e1": {
           "type": "collection",
           "settings": {
-            "collection": "women",
-            "expand_collection": false,
-            "content_position": "place-self-end-start text-start",
+            "collection": "wedding",
+            "image": "shopify:\/\/shop_images\/111111_c0d1ca80-21f1-4301-975f-33e8c27d5afc.png",
+            "expand_collection": true,
+            "content_position": "place-self-end-center text-center",
             "subheading": "",
             "title": "ACCESSORIES",
             "button_text": "SHOP NOW",
@@ -185,7 +186,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": ""
+        "subheading": "Featured Collections"
       }
     },
     "f369b537-a87a-45ac-8c8c-dcbb2cc04c8e": {
@@ -331,6 +332,63 @@
         "button_text": "View all"
       }
     },
+    "54f13849-1283-4f3d-ba6b-e28e8ae50334": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "template--16077948747950__54f13849-1283-4f3d-ba6b-e28e8ae50334-1682578550798daf1a-0": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/KSS_9363.jpg",
+            "subheading": "CUSTOM TAILORING",
+            "title": "MEN'S",
+            "content": "<p>AT SASYA WE HAVE THE TEAM OF BEST MASTERS AN`D` TAILORS WHO CAN GIVE THE BEST BESPOKE SUIT \/ TUXEDO<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "template--16077948747950__54f13849-1283-4f3d-ba6b-e28e8ae50334-1682578550798daf1a-1": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/makeup-and-jewelry.jpg",
+            "subheading": "BAGS",
+            "title": "MAKEUP & JEWELLERY",
+            "content": "<p>ADORN THE COMPLETE LOOK WITH THE HANDCRAFTED BAGSF ROM OUR BEST DESIGNERS<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "template--16077948747950__54f13849-1283-4f3d-ba6b-e28e8ae50334-1682578550798daf1a-2": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/KSS_0910_63fd0897-8d95-460a-bb10-a42063bcdbc3.jpg",
+            "subheading": "DRESSES",
+            "title": "WOMEN's",
+            "content": "<p>AT SASYA WE HAVE THE BEST RANGE OF DRESSES TO GOWNS TO WEDDING LEHENGAS EVERY OCASSION FROM BRIDESMAIDS TO BRIDES<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "template--16077948747950__54f13849-1283-4f3d-ba6b-e28e8ae50334-1682578550798daf1a-0",
+        "template--16077948747950__54f13849-1283-4f3d-ba6b-e28e8ae50334-1682578550798daf1a-1",
+        "template--16077948747950__54f13849-1283-4f3d-ba6b-e28e8ae50334-1682578550798daf1a-2"
+      ],
+      "settings": {
+        "image_position": "end",
+        "text_alignment": "start",
+        "heading_tag": "h3",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "#1c1c1c",
+        "button_background": "#ffffff",
+        "button_text_color": "#1c1c1c",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "64a06d1c-e9e6-4aaa-99b4-fb085ed2dc41": {
       "type": "image-with-text",
       "blocks": {
@@ -379,20 +437,53 @@
         "remove_vertical_spacing": true
       }
     },
-    "newsletter": {
-      "type": "newsletter",
+    "323c721f-cdfa-44c4-a123-d38c0c2fbfde": {
+      "type": "testimonials",
+      "disabled": true,
+      "blocks": {
+        "template--16077948747950__323c721f-cdfa-44c4-a123-d38c0c2fbfde-16825797406f85eeea-0": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>I ordered 4 kurtas. They just looked amazing. Stitching was done very carefully<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "template--16077948747950__323c721f-cdfa-44c4-a123-d38c0c2fbfde-16825797406f85eeea-1": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "template--16077948747950__323c721f-cdfa-44c4-a123-d38c0c2fbfde-16825797406f85eeea-2": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.<\/p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16077948747950__323c721f-cdfa-44c4-a123-d38c0c2fbfde-16825797406f85eeea-0",
+        "template--16077948747950__323c721f-cdfa-44c4-a123-d38c0c2fbfde-16825797406f85eeea-1",
+        "template--16077948747950__323c721f-cdfa-44c4-a123-d38c0c2fbfde-16825797406f85eeea-2"
+      ],
       "settings": {
         "separate_section_with_border": true,
-        "image_size": "auto",
-        "subheading": "Keep me updated",
-        "title": "Newsletter",
-        "content": "<p>A short sentence describing what someone will receive by subscribing.<\/p>",
-        "button_text": "Subscribe",
-        "text_color": "#1c1c1c",
-        "button_background": "",
-        "button_text_color": "",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "What our customers have to say",
+        "content": "",
+        "background": "",
+        "text_color": ""
       }
     }
   },
@@ -403,7 +494,8 @@
     "f369b537-a87a-45ac-8c8c-dcbb2cc04c8e",
     "5bac1769-b377-439d-96e6-5082e826448f",
     "blog-posts",
+    "54f13849-1283-4f3d-ba6b-e28e8ae50334",
     "64a06d1c-e9e6-4aaa-99b4-fb085ed2dc41",
-    "newsletter"
+    "323c721f-cdfa-44c4-a123-d38c0c2fbfde"
   ]
 }
