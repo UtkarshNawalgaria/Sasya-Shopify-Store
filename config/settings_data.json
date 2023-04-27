@@ -34,6 +34,11 @@
     "show_quick_buy": true,
     "cart_show_free_shipping_bar": true,
     "cart_free_shipping_threshold": "10000",
+    "social_facebook": "https:\/\/www.facebook.com\/sasyafashions\/",
+    "social_twitter": "",
+    "social_pinterest": "https:\/\/in.pinterest.com\/sasyakolkata\/",
+    "social_instagram": "https:\/\/www.instagram.com\/sasya_fashions",
+    "social_linkedin": "https:\/\/www.linkedin.com\/company\/simaaya-&-sasya-group",
     "content_for_index": [
 
     ]
